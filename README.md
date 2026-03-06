@@ -21,7 +21,7 @@ From a `bitcoin` directory with the bitcoin-core source tree, with a `final_resu
 ### Directory Structure
 
 - `<run epoch>/<signer>`: each ASmap from a collaborative run is run at a specific epoch (Unix timestamp), which serves to identify a given run.
-  - `output.SHA256SUMS`: hashes of the `filled` and `unfilled` encoded ASmap 
-  - `output.SHA256SUMS.asc`: detached PGP signature over the `output.SHA256SUMS` file
+  - `SHA256SUMS`: hashes of the `filled` and `unfilled` encoded ASmap 
+  - `SHA256SUMS.asc`: detached PGP signature over the `output.SHA256SUMS` file
 - `builder-keys/<signer>.gpg`: signer keys
 
